@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+          
+}
+body {
+    padding: 0%;
+    margin: 0%;
+    margin: 0% auto;
+    align-content: normal;
+}
+.Head {
+    
+    font-size: larger;
+    text-align: center;
+}
+    .marquee {
+        animation: infinite;
+        -webkit-animation: both;
+
+    }
+.banner {
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mess1 {
+    font-weight: 500;
+    font-size: large;
+    margin-top: 50px;
+        h5 {
+            font-size:x-large;
+        }
+        p {
+            font-size: 4rem;
+            font-weight: 100;
+        }
+}
+.mess2 {
+    font-weight: 500;
+    font-size: large;
+    margin-top: 50px;
+    h5 {
+        font-size:x-large;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 100;
+    }
+}
+.mess3 {
+    font-weight: 500;
+    font-size: large; 
+    margin-top: 50px;
+    h5 {
+        font-size:x-large;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+  
+      
+}     
+
+
+@media screen and (max-width: 480px) {
+    h5 {
+        color: red;
+        font-size: large;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+   .item wrapper {
+    width: 30%;
+    margin: auto;
+    color: yellowgreen;
+   }
+
+    /* h5 {
+        color: greenyellow;
+        font-style: italic;
+        text-align: center;
+    }
+     */
+}
+
+
+@media screen and (min-width: 1024px) {
+    h5 {
+        color: green;
+        font-style:normal;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+}
